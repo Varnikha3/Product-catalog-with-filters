@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Object Catalog with Filter</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <h1>🛍️ Object Catalog with Filter</h1>
+
+  <div class="filter-buttons">
+    <button onclick="filterItems('all')">All</button>
+    <button onclick="filterItems('electronics')">Electronics</button>
+    <button onclick="filterItems('clothing')">Clothing</button>
+    <button onclick="filterItems('home')">Home</button>
+  </div>
+
+  <div class="catalog" id="catalog">
+    <div class="item" data-category="electronics">
+      <img src="https://cdn-icons-png.flaticon.com/512/1040/1040230.png" alt="Laptop">
+      <h3>Laptop</h3>
+      <p>High performance laptop.</p>
+    </div>
+
+    <div class="item" data-category="electronics">
+      <img src="https://cdn-icons-png.flaticon.com/512/3659/3659896.png" alt="Headphones">
+      <h3>Headphones</h3>
+      <p>Noise-cancelling wireless headphones.</p>
+    </div>
+
+    <div class="item" data-category="clothing">
+      <img src="https://cdn-icons-png.flaticon.com/512/892/892458.png" alt="T-Shirt">
+      <h3>T-Shirt</h3>
+      <p>Casual cotton T-shirt.</p>
+    </div>
+
+    <div class="item" data-category="clothing">
+      <img src="https://cdn-icons-png.flaticon.com/512/892/892403.png" alt="Jacket">
+      <h3>Jacket</h3>
+      <p>Warm winter jacket.</p>
+    </div>
+
+    <div class="item" data-category="home">
+      <img src="https://cdn-icons-png.flaticon.com/512/809/809952.png" alt="Lamp">
+      <h3>Lamp</h3>
+      <p>Stylish desk lamp.</p>
+    </div>
+
+    <div class="item" data-category="home">
+      <img src="https://cdn-icons-png.flaticon.com/512/1830/1830839.png" alt="Chair">
+      <h3>Chair</h3>
+      <p>Comfortable wooden chair.</p>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
